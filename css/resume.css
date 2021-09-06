@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.resume{
+    width:1240px;
+    height: 1754px;
+    position: absolute;
+    top: 30px;
+    /* border-radius: 20px; */
+}
+
+.name{
+    /* color: red; */
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-left: .5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    /* margin-bottom: .5rem; */
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+}
+
+.contact > span{
+    margin: 20px;
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+a:link:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    /* font-size: 33px; */
+}
+
+.contact span:not(:first-child){
+    margin-left: 0; 
+}
+
+
+.img{
+    position: relative;
+}
+
+.resume_img{
+    position: absolute;
+    right: 13rem;
+    top: -4rem;
+    padding: 10px;
+    border-radius: 40px;
+    border: 10px solid red;
+}
+
+
+.resume_img:hover{
+    box-shadow: 3px 3px 15px #0000009d;
+    cursor: none;
+}
+
+
+.subTitle{
+    margin-left: .5rem;
+    margin-top: .5rem;
+    font-size: 18px;
+}
+
+.experience{
+    text-transform: uppercase;
+    margin-left: .5rem;
+    margin-top: 1rem;
+
+}
+
+.subject{
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+.edu{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.education{
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.college{
+    font-size: 20px;
+    margin-bottom: .2rem;
+}
+
+
+em{
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+.edu_info{
+    /* color: red; */
+    margin-bottom: .5rem;
+    font-size: 18px;
+}
+
+.all_college_list{
+    margin-left: 1.5rem;
+}
+
+.firstProject > ul li{
+    list-style: none;
+}
+
+
+.project{
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.project_info{
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.Project_link{
+    margin-bottom: .5rem;
+}
